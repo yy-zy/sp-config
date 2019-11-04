@@ -25,6 +25,11 @@ management:
 ---
 spring:
   profiles: order1
+  rabbitmq:
+    host: 192.168.52.130
+    port: 5672
+    username: admin
+    password: admin
   
 server:
   port: 8201
